@@ -5,7 +5,6 @@ Copy master child layers to master
 """
 from vanilla import *
 import ntpath
-from robofab.interface.all.dialogs import Message
 Glyphs.clearLog()
 
 
@@ -83,7 +82,7 @@ class DialogWindow(object):
 		self.w.close()
 		# Display error if the to/from masters are the same
 		if self.w.fromMasterSelect.get() == self.w.toMasterSelect.get():
-			Message("'From Master' and 'To Master' must be different!'")
+			Message("Copy master child layers to master", "'From Master' and 'To Master' must be different!'")
 			return
 		# Run logic
 		copyMasterChildLayersToMaster(self.w.fromMasterSelect.get(), self.w.toMasterSelect.get())
