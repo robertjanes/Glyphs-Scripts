@@ -79,11 +79,11 @@ class DialogWindow(object):
 		self.w.open()
 
 	def buttonCallback(self, sender):
-		self.w.close()
 		# Display error if the to/from masters are the same
 		if self.w.fromMasterSelect.get() == self.w.toMasterSelect.get():
 			Message("Copy master child layers to master", "'From Master' and 'To Master' must be different!'")
 			return
+		self.w.close()
 		# Run logic
 		copyMasterChildLayersToMaster(self.w.fromMasterSelect.get(), self.w.toMasterSelect.get())
 
