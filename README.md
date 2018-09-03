@@ -1,7 +1,10 @@
 # Rob’s Glyphs Scripts
 
-#### CopyMasterChildLayersToMaster
+#### CopyAnchorsFromMasterToMaster
 Copies child layers between masters, including masters in different fonts.
+
+#### CopyMasterChildLayersToMaster
+Copies anchors between masters. Existing anchors are overwritten.
 
 #### SwapGlyphNames
 Swaps the names of 2 glyphs. Useful for switching alternative, ssXX glyphs.
