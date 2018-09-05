@@ -6,6 +6,9 @@ Copies child layers between masters, including masters in different fonts.
 #### CopyMasterChildLayersToMaster
 Copies anchors between masters. Existing anchors are overwritten.
 
+#### HalfAllKerningValues
+Halves the values of all kerning pairs in all masters.
+
 #### SwapGlyphNames
 Swaps the names of 2 glyphs. Useful for switching alternative, ssXX glyphs.
 
