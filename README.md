@@ -6,6 +6,9 @@ Copies child layers between masters, including masters in different fonts.
 #### CopyMasterChildLayersToMaster
 Copies anchors between masters. Existing anchors are overwritten.
 
+#### Delete Background Layers
+Clears the background layers of the selected layers.
+
 #### HalfAllKerningValues
 Halves the values of all kerning pairs in all masters.
 
