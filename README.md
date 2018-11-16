@@ -7,7 +7,7 @@ Copies child layers between masters, including masters in different fonts.
 Copies anchors between masters. Existing anchors are overwritten.
 
 #### CreateInDesignTaggedText
-Creates an inDesign Tagged Text document containing all glyphs in the font. Need to implement save feature.
+Creates an inDesign Tagged Text document containing all glyphs in the font.
 
 #### Delete Background Layers
 Clears the background layers of the selected layers.
