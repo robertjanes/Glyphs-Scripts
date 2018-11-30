@@ -20,3 +20,12 @@ Swaps the names of 2 glyphs. Useful for switching alternative, ssXX glyphs.
 
 #### VariableFontExportWithDecomposeComponents !!!Use at own risk!!!
 Exports the font as a variable font with decomposed components.
+
+## Running Glyphs Filters in scripts
+
+#### Roughen
+
+```py
+RoughenizerFilter = GlyphsApp.NSClassFromString("GlyphsFilterRoughenizer").alloc().init()
+RoughenizerFilter.processLayer_withArguments_(layer, [10, 10, 10, 0])
+```
