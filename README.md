@@ -12,6 +12,9 @@ Creates an inDesign Tagged Text document containing all glyphs in the font.
 #### Delete Background Layers
 Clears the background layers of the selected layers.
 
+### Find Bracket and Brace Layers
+Logs the names of all bracket and brace layers to the console.
+
 #### HalfAllKerningValues
 Halves the values of all kerning pairs in all masters.
 
