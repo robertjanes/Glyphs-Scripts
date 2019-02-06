@@ -18,8 +18,8 @@ class InstanceInterpolationsReport(object):
 
     def __init__(self):
         self.w = Window((350, 600),
-        			    "Instance Interpolations Report",
-        			    minSize=(300, 450))
+						"Instance Interpolations Report",
+						minSize=(300, 450))
         self.w.textEditor = TextEditor((10, 10, -10, -10),
                             text=text,
                             readOnly=True)
