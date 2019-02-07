@@ -4,7 +4,7 @@
 __doc__="""
 Instance Interpolations Report
 """
-import vanilla
+from vanilla import Window, TextEditor
 
 text = ""
 for instance in Font.instances:
