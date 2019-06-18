@@ -1,5 +1,11 @@
 # Rob’s Glyphs Scripts
 
+#### CleanUpPathsAllGlyphs
+Cleans up all the paths in all layers
+
+#### CloseOpenCorners
+Closes all open corners in the Font
+
 #### CopyAnchorsFromMasterToMaster
 Copies child layers between masters, including masters in different fonts.
 
