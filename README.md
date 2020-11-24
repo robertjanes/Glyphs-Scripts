@@ -41,3 +41,11 @@ Exports the font as a variable font with decomposed components.
 RoughenizerFilter = GlyphsApp.NSClassFromString("GlyphsFilterRoughenizer").alloc().init()
 RoughenizerFilter.processLayer_withArguments_(layer, [10, 10, 10, 0])
 ```
+
+## Miscellaneous
+
+#### Change the steps of kern keyboard shortcuts
+```py
+Glyphs.intDefaults["GSKerningIncrementLow"] = 5
+Glyphs.intDefaults["GSKerningIncrementHigh"] = 10
+```
