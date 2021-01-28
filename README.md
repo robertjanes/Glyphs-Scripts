@@ -44,3 +44,11 @@ Align all the selected anchors to the center of the layer.
 RoughenizerFilter = GlyphsApp.NSClassFromString("GlyphsFilterRoughenizer").alloc().init()
 RoughenizerFilter.processLayer_withArguments_(layer, [10, 10, 10, 0])
 ```
+
+## Miscellaneous
+
+#### Change the steps of kern keyboard shortcuts
+```py
+Glyphs.intDefaults["GSKerningIncrementLow"] = 5
+Glyphs.intDefaults["GSKerningIncrementHigh"] = 10
+```
