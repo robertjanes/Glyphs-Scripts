@@ -33,6 +33,9 @@ Swaps the names of 2 glyphs. Useful for switching alternative, ssXX glyphs.
 #### VariableFontExportWithDecomposeComponents !!!Use at own risk!!!
 Exports the font as a variable font with decomposed components.
 
+#### Center Align Anchors
+Align all the selected anchors to the center of the layer.
+
 ## Running Glyphs Filters in scripts
 
 #### Roughen
