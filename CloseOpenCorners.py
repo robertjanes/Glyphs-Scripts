@@ -1,9 +1,10 @@
-#MenuTitle: Close Open Corners
+# MenuTitle: Close Open Corners
 # -*- coding: utf-8 -*-
-__doc__="""
+__doc__ = """
 Close Open Corners
 """
 import GlyphsApp
+
 Font = GlyphsApp.currentFont()
 
 Glyphs.clearLog()

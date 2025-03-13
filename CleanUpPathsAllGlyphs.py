@@ -1,10 +1,12 @@
-#MenuTitle: Clean Up Paths All Glyphs
+# MenuTitle: Clean Up Paths All Glyphs
 # -*- coding: utf-8 -*-
-__doc__="""
+__doc__ = """
 Clean Up Paths All Glyphs
 """
-import GlyphsApp
-Font = GlyphsApp.currentFont()
+from GlyphsApp import Glyphs
+
+Font = Glyphs.font
+
 for glyph in Font.glyphs:
-	for layer in glyph.layers:
-		layer.cleanUpPaths()
+    for layer in glyph.layers:
+        layer.cleanUpPaths()

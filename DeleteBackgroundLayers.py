@@ -1,11 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#MenuTitle: Delete Background Layers
-__doc__="""
+# MenuTitle: Delete Background Layers
+__doc__ = """
 Delete Background Layers
 """
 
-Glyphs.clearLog()
+from GlyphsApp import Glyphs
 
-for layer in Font.selectedLayers:
-	layer.background.paths = []
+Font = Glyphs.font
+
+
+def delete_background_layers():
+    for layer in Font.selectedLayers:
+        layer.background.paths = []
+
+
+if __name__ == "__main__":
+    delete_background_layers()
