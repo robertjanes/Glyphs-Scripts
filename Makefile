@@ -9,4 +9,4 @@ ifeq ($(Glyphs3ScriptsPathExists) , 1)
 endif
 
 dev:
-	fswatch -0 Lib | xargs -0 -n 1 -I {} make install
+	fswatch -0 ./ | xargs -0 -n 1 -I {} make install
