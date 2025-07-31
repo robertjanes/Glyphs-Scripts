@@ -3,6 +3,8 @@
 __doc__ = """
 Generate Numerators
 """
+import math
+
 from GlyphsApp import GSComponent
 
 
@@ -31,7 +33,7 @@ def create_numerators():
             dnom_glyph_name = glyph.name.replace(".numr", ".dnom")
             component = GSComponent(dnom_glyph_name)
             layer.shapes = [component]
-            component.y = int(layer.master.capHeight - height)
+            component.y = math.ceil(layer.master.capHeight - height)
 
 
 def main():
